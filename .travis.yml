@@ -6,7 +6,7 @@ script:
   - mvn clean scoverage:report
 
 after_success:
-  - mvn coveralls:report
+  - mvn generate-sources coveralls:report
 
 cache:
   directories:
