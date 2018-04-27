@@ -7,3 +7,8 @@
 Run
 
 - `mvn clean scoverage:report coveralls:report`
+
+or
+
+- `mvn clean scoverage:report`
+- `mvn generate-sources coveralls:report`
